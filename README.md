@@ -37,7 +37,7 @@
   
  **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
 |:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
-| Least-to-most Prompting | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models |     Split by sub-query terms in different questions     |    ICLR 2023    | [[Link]](https://openreview.net/forum?id=WZH7099tgfM) |
+| Pearl | Pearl: Personalizing large language model writing assistants with generation-calibrated retrievers |     Personalized Indexing     |    ACL 2024    | [[Link]](https://aclanthology.org/2024.customnlp4u-1.16.pdf) | 
 
 
 </p>
@@ -57,7 +57,7 @@
 | HEART      | HEART-felt Narratives:     Tracing Empathy and Narrative Style in Personal Stories with LLMs | Personalized Writing Style                  | EMNLP 2024         | [[Link]](https://arxiv.org/pdf/2405.17633)                   | [[Link]](https://github.com/mitmedialab/heartfelt-narratives-emnlp)    |
 | OPPU       | Democratizing Large Language  Models via Personalized Parameter-Efficient Fine-tuning | Personalized Parameter Fine-tuning | EMNLP 2024         | [[Link]](https://arxiv.org/pdf/2402.04401)                   | [[Link]](https://github.com/TamSiuhin/OPPU)                            |
 | LAPDOG     | Learning Retrieval Augmentation  for Personalized Dialogue Generation | Personalized Dialogue  | EMNLP 2023         | [[Link]](https://arxiv.org/pdf/2406.18847)                   | [[Link]](https://github.com/hqsiswiliam/LAPDOG)                        |
-| UniMP      | Towards Unified Multi-Modal  Personalization: Large Vision-Language Models for Generative Recommendation  and Beyond | Personalized Multi-modal Output | ICLR 2024          | [[Link]](https://arxiv.org/pdf/2403.10667)                   |                                                              |
+| UniMP      | Towards Unified Multi-Modal  Personalization: Large Vision-Language Models for Generative Recommendation  and Beyond | Personalized Recommendation | ICLR 2024          | [[Link]](https://arxiv.org/pdf/2403.10667)                   |                                                              |
 |            | Personalized Language Generation  via Bayesian Metric Augmented Retrieval | Personalized Retrieval                                     | Arxiv              | [[Link]](https://openreview.net/pdf?id=n1LiKueC4F)           |                                                              |
 |            | Leveraging Similar Users for  Personalized Language Modeling with Limited Data | Personalized Retrieval           | ACL 2022           | [[Link]](https://aclanthology.org/2022.acl-long.122.pdf)     |                                                              |
 | UIA        | A Personalized Dense Retrieval  Framework for     Unified Information Access | Personalized Retrieval | SIGIR 2023         | [[Link]](https://dl.acm.org/doi/pdf/10.1145/3539618.3591626) | [[Link]](https://github.com/HansiZeng/UIA)                             |
@@ -73,7 +73,9 @@
 <details><summary><b>2.3 Post-Retrieve</b></summary>
 <p>
 
-
+ **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
+|:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
+| LLM4Rerank | LLM4Rerank: LLM-based Auto-Reranking Framework for Recommendations|     Personalized Recommendation      |    WWW 2025    | [[Link]](https://arxiv.org/pdf/2406.12433v3) |
 
 </p>
 </details>
