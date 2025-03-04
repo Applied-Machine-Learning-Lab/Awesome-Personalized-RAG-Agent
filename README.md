@@ -127,6 +127,13 @@
 |    **Field**    | **Dataset**  |    **Matrics**  | **Link**   |
 |:---------------:|:--------|:-----------:|:-----------:|
 | Query Rewriting | SCAN | accuracy | [[Link]](https://openreview.net/forum?id=WZH7099tgfM) |
+| Retrieve / Generate | TOPDIAL  | BLEU, F1, Succ | [[Link]](https://github.com/iwangjian/TopDial)|
+  |       Retrieve / Generate    | LiveChat  | Recall,MRR |[[Link]]( https://github.com/gaojingsheng/LiveChat) |
+  |          Retrieve / Generate     | PersonalityEvd  | ACC,Fluency, Coherence, Plausibility |   [[Link]](https://github.com/Lei-Sun-RUC/PersonalityEvd) |
+  |            Retrieve / Generate   | Pchatbot  | BLEU, ROUGE, Dist, MRR | [[Link]](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) |
+|    Retrieve / Generate     | DuLemon  | PPL, BLUE, ACC,Precision,Recall,F1 | [[Link]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) |
+|    Retrieve / Generate    |  PersonalityEdit  |  ES, DD, Acc, TPEI, PAE|[[Link]](https://github.com/zjunlp/EasyEdit)|
+
 
 ## Contributing
 
