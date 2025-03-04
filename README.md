@@ -34,10 +34,21 @@
 ### 2. Retrieval
 <details><summary><b>2.1 Indexing </b></summary>
 <p>
+  
  **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
 |:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
-|  | Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation |    Gradients based on personalized scores      |    ICLR 2023    | [[Link]](https://openreview.net/forum?id=WZH7099tgfM) |            | Optimization Methods for  Personalizing Large Language Models through Retrieval Augmentation | 利用强化学习的思想，将llm对个性化程度的打分以梯度形式反馈到检索器中 | SIGIR 2024         | https://dl.acm.org/doi/pdf/10.1145/3626772.3657783 |                                                              |
-| ---------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------ | -------------------------------------------------- | ------------------------------------------------------------ |
+| Least-to-most Prompting | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models |     Split by sub-query terms in different questions     |    ICLR 2023    | [[Link]](https://openreview.net/forum?id=WZH7099tgfM) |
+
+
+</p>
+</details>
+
+<details><summary><b>2.2 Retrieve </b></summary>
+<p>
+
+ **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
+|:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
+|            | Optimization Methods for  Personalizing Large Language Models through Retrieval Augmentation | Gradients based on personalized scores | SIGIR 2024         | [[Link]](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783) |                                                              |
 | MeMemo     | MeMemo: On-device Retrieval  Augmentation for Private and Personalized Text Generation | 保护隐私数据的工作，使用户能够隐私和高效的检索               | SIGIR 2024 (short) | https://dl.acm.org/doi/pdf/10.1145/3626772.3657662 | https://github.com/poloclub/mememo                           |
 | LAPS       | Doing Personal LAPS:  LLM-Augmented Dialogue Construction for Personalized Multi-Session  Conversational Search | 利用LLM在会话历史中生成用户的偏好，并利用人工检验            | SIGIR 2024         | https://dl.acm.org/doi/pdf/10.1145/3626772.3657815 | https://github.com/informagi/laps                            |
 |            | Partner Matters! An Empirical  Study on Fusing Personas for Personalized Response Selection in  Retrieval-Based Chatbots | 个性化对话系统                                               | SIGIR 2021         | https://dl.acm.org/doi/pdf/10.1145/3404835.3462858 | https://github.com/JasonForJoy/Personalized-Response-Selection |
@@ -55,15 +66,6 @@
 | PersonalTM | PersonalTM: Transformer Memory  for Personalized Retrieval   | 将用户个性化信息作为embedding利用transformer计算相似度来进行retrieval | SIGIR 2023 (short) | https://dl.acm.org/doi/pdf/10.1145/3539618.3592037 |                                                              |
 |            | A zero attention model for  personalized product search      | 根据当前查询和用户信息自动确定何时以及如何个性化搜索结果     | CIKM 2019          | https://dl.acm.org/doi/pdf/10.1145/3357384.3357980 |                                                              |
 | RTM        | Learning a Fine-Grained  Review-based Transformer Model for Personalized Product Search | 提出基于评论的 transformer 模型来个性化产品搜索  ，能实现更细粒度的匹配、动态用户/项目表示、泛化能力和个性化 | SIGIR 2021         | https://dl.acm.org/doi/pdf/10.1145/3404835.3462911 | https://github.com/kepingbi/ProdSearch                       |
-
-
-</p>
-</details>
-
-<details><summary><b>2.2 Retrieve </b></summary>
-<p>
-
-
 
 </p>
 </details>
