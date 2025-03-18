@@ -109,7 +109,27 @@
 <details><summary><b>3.2 Generation from Implicit Preference</b></summary>
 <p>
 
-
+  
+ **Name** | **Title** |              **Personalized presentation**              |        **Publication**         |                **Paper Link**                |                             **Code Link**                              |
+|:--------:|:---|:-------------------------------------------------------:|:------------------------------:|:---:|:----------------------------------------------------------------------:|
+|  PLoRA   | Personalized LoRA for Human-Centered Text Understanding |  |           AAAI 2024            | [[Link]](https://arxiv.org/pdf/2403.06208) |              [[Link]](https://github.com/yoyo-yun/PLoRA)               |
+|   LM-P   | Personalized Large Language Models |  |  SENTIRE 2024 (ICDM Workshop)  | [[Link]](https://arxiv.org/pdf/2402.09269) |           [[Link]](https://github.com/Rikain/llm-finetuning)           |
+|   MiLP   | Personalized LLM Response Generation with Parameterized User Memory Injection |  |             Arxiv              | [[Link]](https://arxiv.org/pdf/2404.03565) |             [[Link]](https://github.com/MatthewKKai/MiLP)              |
+|   OPPU   | Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning |  |           EMNLP 2024           | [[Link]](https://aclanthology.org/2024.emnlp-main.372.pdf) |              [[Link]](https://github.com/TamSiuhin/OPPU)               |
+| PER-PCS  | PERSONALIZED PIECES: Efficient Personalized Large Language Models through Collaborative Efforts |  |           EMNLP 2024           | [[Link]](https://aclanthology.org/2024.emnlp-main.371.pdf) |             [[Link]](https://github.com/TamSiuhin/Per-Pcs)             |
+|  Review-LLM   | Review-LLM: Harnessing Large Language Models for Personalized Review Generation |  |             Arxiv              | [[Link]](https://arxiv.org/pdf/2407.07487) |                                                                        |
+|  UserIdentifier   | UserIdentifier: Implicit User Representations for Simple and Effective Personalized Sentiment Analysis |  |           NAACL 2022           | [[Link]](https://aclanthology.org/2022.naacl-main.252.pdf) |                                                                        |
+|  UserAdapter   | UserAdapter: Few-Shot User Learning in Sentiment Analysis |  |       ACL Fingdings 2021       | [[Link]](https://aclanthology.org/2021.findings-acl.129.pdf) |                                                                        |
+|  HYDRA   | HYDRA: Model Factorization Framework for Black-Box LLM Personalization |  |          NeurIPS 2024          | [[Link]](https://arxiv.org/pdf/2406.02888) |                               [[Link]](https://github.com/night-chen/HYDRA)                               |
+|  PocketLLM   | PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs |  | PrivateNLP 2024 (ACL Workshop) | [[Link]](https://aclanthology.org/2024.privatenlp-1.10.pdf) |                               [[Link]]()                               |
+|  CoGenesis   | CoGenesis: A Framework Collaborating Large and Small Language Models for Secure Context-Aware Instruction Following |  |                                | [[Link]]() |                               [[Link]]()                               |
+|  P-RLHF   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
+|  P-SOUPS   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
+|  PAD   | PAD: PERSONALIZED ALIGNMENT OF LLMS AT DECODING-TIME |  |                                | [[Link]]() |                               [[Link]]()                               |
+|  REST-PG   | Reasoningenhanced self-training for long-form personalized
+|  Salemi et al.   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
+|  RewriterSlRl   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
+|  Kulkarni et al.   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
 
 </p>
 </details>
