@@ -110,26 +110,26 @@
 <p>
 
   
- **Name** | **Title** |              **Personalized presentation**              |        **Publication**         |                **Paper Link**                |                             **Code Link**                              |
-|:--------:|:---|:-------------------------------------------------------:|:------------------------------:|:---:|:----------------------------------------------------------------------:|
-|  PLoRA   | Personalized LoRA for Human-Centered Text Understanding |  |           AAAI 2024            | [[Link]](https://arxiv.org/pdf/2403.06208) |              [[Link]](https://github.com/yoyo-yun/PLoRA)               |
-|   LM-P   | Personalized Large Language Models |  |  SENTIRE 2024 (ICDM Workshop)  | [[Link]](https://arxiv.org/pdf/2402.09269) |           [[Link]](https://github.com/Rikain/llm-finetuning)           |
-|   MiLP   | Personalized LLM Response Generation with Parameterized User Memory Injection |  |             Arxiv              | [[Link]](https://arxiv.org/pdf/2404.03565) |             [[Link]](https://github.com/MatthewKKai/MiLP)              |
-|   OPPU   | Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning |  |           EMNLP 2024           | [[Link]](https://aclanthology.org/2024.emnlp-main.372.pdf) |              [[Link]](https://github.com/TamSiuhin/OPPU)               |
-| PER-PCS  | PERSONALIZED PIECES: Efficient Personalized Large Language Models through Collaborative Efforts |  |           EMNLP 2024           | [[Link]](https://aclanthology.org/2024.emnlp-main.371.pdf) |             [[Link]](https://github.com/TamSiuhin/Per-Pcs)             |
-|  Review-LLM   | Review-LLM: Harnessing Large Language Models for Personalized Review Generation |  |             Arxiv              | [[Link]](https://arxiv.org/pdf/2407.07487) |                                                                        |
-|  UserIdentifier   | UserIdentifier: Implicit User Representations for Simple and Effective Personalized Sentiment Analysis |  |           NAACL 2022           | [[Link]](https://aclanthology.org/2022.naacl-main.252.pdf) |                                                                        |
-|  UserAdapter   | UserAdapter: Few-Shot User Learning in Sentiment Analysis |  |       ACL Fingdings 2021       | [[Link]](https://aclanthology.org/2021.findings-acl.129.pdf) |                                                                        |
-|  HYDRA   | HYDRA: Model Factorization Framework for Black-Box LLM Personalization |  |          NeurIPS 2024          | [[Link]](https://arxiv.org/pdf/2406.02888) |                               [[Link]](https://github.com/night-chen/HYDRA)                               |
-|  PocketLLM   | PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs |  | PrivateNLP 2024 (ACL Workshop) | [[Link]](https://aclanthology.org/2024.privatenlp-1.10.pdf) |                               [[Link]]()                               |
-|  CoGenesis   | CoGenesis: A Framework Collaborating Large and Small Language Models for Secure Context-Aware Instruction Following |  |                                | [[Link]]() |                               [[Link]]()                               |
-|  P-RLHF   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
-|  P-SOUPS   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
-|  PAD   | PAD: PERSONALIZED ALIGNMENT OF LLMS AT DECODING-TIME |  |                                | [[Link]]() |                               [[Link]]()                               |
-|  REST-PG   | Reasoningenhanced self-training for long-form personalized
-|  Salemi et al.   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
-|  RewriterSlRl   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
-|  Kulkarni et al.   |  |  |                                | [[Link]]() |                               [[Link]]()                               |
+     **Name**       | **Title** |              **Personalized presentation**              |                **Publication**                 |                **Paper Link**                |                                                              **Code Link**                                                               |
+|:-----------------:|:---|:-------------------------------------------------------:|:----------------------------------------------:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------:|
+|       PLoRA       | Personalized LoRA for Human-Centered Text Understanding                                                             | Personalized Text Understanding  |                   AAAI 2024                    | [[Link]](https://arxiv.org/pdf/2403.06208)                    |  [[Link]](https://github.com/yoyo-yun/PLoRA)                       |
+|       LM-P        | Personalized Large Language Models                                                                                  | Personalized Fine-tuning         |          SENTIRE 2024 (ICDM Workshop)          | [[Link]](https://arxiv.org/pdf/2402.09269)                    |  [[Link]](https://github.com/Rikain/llm-finetuning)                |
+|       MiLP        | Personalized LLM Response Generation with Parameterized User Memory Injection                                       | Personalized Text Generation     |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2404.03565)                    |  [[Link]](https://github.com/MatthewKKai/MiLP)                     |
+|       OPPU        | Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning                                | Personalized Text Generation     |                   EMNLP 2024                   | [[Link]](https://aclanthology.org/2024.emnlp-main.372.pdf)    |  [[Link]](https://github.com/TamSiuhin/OPPU)                       |
+|      PER-PCS      | PERSONALIZED PIECES: Efficient Personalized Large Language Models through Collaborative Efforts                     | Personalized Text Generation     |                   EMNLP 2024                   | [[Link]](https://aclanthology.org/2024.emnlp-main.371.pdf)    |  [[Link]](https://github.com/TamSiuhin/Per-Pcs)                    |
+|    Review-LLM     | Review-LLM: Harnessing Large Language Models for Personalized Review Generation                                     | Personalized Review Generation   |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2407.07487)                    |                                                                    |
+|  UserIdentifier   | UserIdentifier: Implicit User Representations for Simple and Effective Personalized Sentiment Analysis              | Personalized Text Understanding  |                   NAACL 2022                   | [[Link]](https://aclanthology.org/2022.naacl-main.252.pdf)    |                                                                    |
+|    UserAdapter    | UserAdapter: Few-Shot User Learning in Sentiment Analysis                                                           |  |               ACL Fingdings 2021               | [[Link]](https://aclanthology.org/2021.findings-acl.129.pdf)  |                                                                    |
+|       HYDRA       | HYDRA: Model Factorization Framework for Black-Box LLM Personalization                                              |  |                  NeurIPS 2024                  | [[Link]](https://arxiv.org/pdf/2406.02888)                    |  [[Link]](https://github.com/night-chen/HYDRA)                     |
+|     PocketLLM     | PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs                                                     |  |         PrivateNLP 2024 (ACL Workshop)         | [[Link]](https://aclanthology.org/2024.privatenlp-1.10.pdf)   |                                                                    |
+|     CoGenesis     | CoGenesis: A Framework Collaborating Large and Small Language Models for Secure Context-Aware Instruction Following |  |                    ACl 2024                    | [[Link]](https://arxiv.org/pdf/2403.03129)                    |  [[Link]](https://github.com/TsinghuaC3I/CoGenesis)                |
+|      P-RLHF       | P-RLHF: Personalized Language Modeling from Personalized Human Feedback                                             |  |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2402.05133)                    |  [[Link]](https://github.com/HumainLab/Personalized_RLHF)          |
+|      P-SOUPS      | Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging                      |  | Adaptive Foundation Models 2024 (NeurIPS 2024) | [[Link]](https://openreview.net/pdf?id=EMrnoPRvxe)            |  [[Link]](https://github.com/joeljang/RLPHF)                       |
+|        PAD        | PAD: Personalized Alignment of LLMs at Decoding-Time                                                                |  |                   ICLR 2025                    | [[Link]](https://arxiv.org/pdf/2410.04070)                    |  [[Link]](https://github.com/zjuruizhechen/PAD)                    |
+|      REST-PG      | Reasoningenhanced self-training for long-form personalized                                                          |  |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2501.04167)                    |                                                                    |
+|                   | Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation                         |  |                  SIGIR 2024                    | [[Link]](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783)  |                                                                    |
+|   RewriterSlRl    | Learning to Rewrite Prompts for Personalized Text Generation                                                        |  |                   WWW 2024                     | [[Link]](https://arxiv.org/pdf/2310.00152)                    |                                                                    |
+|                   | Reinforcement learning for optimizing rag for domain chatbots                                                       |  |       RL+LLMs 2024 (AAAI Workshop)             | [[Link]](https://arxiv.org/pdf/2401.06800)                    |                                                                    |
 
 </p>
 </details>
@@ -164,12 +164,12 @@
 ## Datasets and Evaluation
 
 |    **Field**    | **Dataset**  |    **Matrics**  | **Link**   |
-|:---------------:|:--------|:-----------:|:-----------:|
+|:---------------:|:-------:|:-----------:|:-----------:|
 | Query Rewriting | SCAN | accuracy | [[Link]](https://openreview.net/forum?id=WZH7099tgfM) |
 | Retrieve / Generate | TOPDIAL  | BLEU, F1, Succ | [[Link]](https://github.com/iwangjian/TopDial)|
-  |       Retrieve / Generate    | LiveChat  | Recall,MRR |[[Link]]( https://github.com/gaojingsheng/LiveChat) |
-  |          Retrieve / Generate     | PersonalityEvd  | ACC,Fluency, Coherence, Plausibility |   [[Link]](https://github.com/Lei-Sun-RUC/PersonalityEvd) |
-  |            Retrieve / Generate   | Pchatbot  | BLEU, ROUGE, Dist, MRR | [[Link]](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) |
+|       Retrieve / Generate    | LiveChat  | Recall,MRR |[[Link]]( https://github.com/gaojingsheng/LiveChat) |
+|          Retrieve / Generate     | PersonalityEvd  | ACC,Fluency, Coherence, Plausibility |   [[Link]](https://github.com/Lei-Sun-RUC/PersonalityEvd) |
+|            Retrieve / Generate   | Pchatbot  | BLEU, ROUGE, Dist, MRR | [[Link]](https://github.com/qhjqhj00/SIGIR2021-Pchatbot) |
 |    Retrieve / Generate     | DuLemon  | PPL, BLUE, ACC,Precision,Recall,F1 | [[Link]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) |
 |    Retrieve / Generate    |  PersonalityEdit  |  ES, DD, Acc, TPEI, PAE|[[Link]](https://github.com/zjunlp/EasyEdit)|
 
