@@ -32,6 +32,19 @@
 <p>
 
 
+| **Name** | **Title**                                                    |                **Personalized presentation**                 |                       **Publication**                        |                        **Paper Link**                        | **Code Link** |
+| :------: | :----------------------------------------------------------- | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----------: |
+|  PNQES   | Personalized Optimal Search in Local Query Expansion         |           Search history, Latent semantic indexing           | Proceedings of the 18th Conference on Computational Linguistics and Speech Processing 2006 |       [[Link]](https://aclanthology.org/O06-1015.pdf)        |               |
+|          | Exploiting social relations for query expansion and result ranking |                     Friendship, Tagging                      |                      ICDE Workshop 2008                      | [[Link]](https://ieeexplore.ieee.org/abstract/document/4498369/?casa_token=1kg_6Ae8v2QAAAAA:XYQuADKra_GcrnshEKYT3OFjvujhEOidXjxKa8Tls5AFlkiIetfKejLHv5Nfjxvmn5rMHogn) |               |
+| Gossple  | Toward personalized query expansion                          | Calculating the distance between users, constructing a personalized network that connects users with similar interests. Extracting tags |                    EuroSys Workshop 2009                     | [[Link]](https://dl.acm.org/doi/abs/10.1145/1578002.1578004?casa_token=xrBTIRsHVbgAAAAA:ZQl0ReJup7-48PiKIM_JNZ2ioWKvrIunR_4arW2ULoSDgG8En-oGs6brf0NUzonXb1f8E6kpb7oR) |               |
+|          | Social tagging in query expansion: A new way for personalized web search |                    User Interest Tagging                     |                           CSE 2009                           | [[Link]](https://ieeexplore.ieee.org/abstract/document/5283040/?casa_token=29tFHyo36rsAAAAA:cUKGboQJ_6dSOyw2Jt_mc2yak8G2oP3piyLZvjNGbMd0WMLuBwfkIIGT3_HbE3_0-1CMrFYW) |               |
+|  SoQuES  | personalized social query expansion using social bookmarking systems | Extract user tag behavior to build personalized user profiles. |                          SIGIR 2011                          | [[Link]](https://dl.acm.org/doi/abs/10.1145/2009916.2010075?casa_token=y-b4ZLwha4YAAAAA:VK9Fmq-iRQP1jgU-hBODrlIzTbpD88wGCmYpSBUtQMvYnm7dAiMOiIjaYe7NMGX_Vipjfxzgi4bL) |               |
+|          | Improving search via personalized query expansion using social media |                           Tagging                            |                  Information retrieval 2012                  | [[Link]](https://link.springer.com/article/10.1007/s10791-012-9191-2) |               |
+|          | Axiomatic term-based personalized query expansion using bookmarking system |                 Bookmarking, Social Network                  | International Conference on Database and Expert Systems Applications 2016 | [[Link]](https://link.springer.com/chapter/10.1007/978-3-319-44406-2_17) |               |
+|  WE-LM   | personalized query expansion utilizing multi-relationalsocial data |                           Tagging                            |                      SMAP Workshop 2017                      | [[Link]](https://ieeexplore.ieee.org/abstract/document/8022669/) |               |
+|   PSQE   | personalized social query expansion using social annotations |                    User Interest Tagging                     | Transactions on Large-Scale Data-and Knowledge-Centered Systems XL 2019 | [[Link]](https://link.springer.com/chapter/10.1007/978-3-662-58664-8_1) |               |
+|  PQEWC   | Personalized Query Expansion with Contextual Word Embeddings | Employing topic modeling on user texts and dynamically selecting relevant words |                          TOIS 2023                           |     [[Link]](https://dl.acm.org/doi/abs/10.1145/3624988)     |               |
+
 </p>
 </details>
 
@@ -39,13 +52,19 @@
 <p>
 
 
+| **Name** | **Title**                                                    |                **Personalized presentation**                 | **Publication** |                        **Paper Link**                        | **Code Link** |
+| :------: | :----------------------------------------------------------- | :----------------------------------------------------------: | :-------------: | :----------------------------------------------------------: | :-----------: |
+|   PSQE   | PSQE: Personalized Semantic Query Expansion for user-centric query disambiguation | Leveraging synthetic user profiles built from Wikipedia articles, training word2vec embeddings on these profiles |                 | [[Link]](https://www.researchsquare.com/article/rs-4178030/latest) |               |
+|   Bobo   | Utilizing user-input contextual terms for query disambiguation |                       contextual terms                       |   Coling 2010   |       [[Link]](https://aclanthology.org/C10-2038.pdf)        |               |
+|          | Personalized Query Auto-Completion Through a Lightweight Representation of the User Context |      Learning embeddings from the user’s recent queries      |   Arxiv 2019    |          [[Link]](https://arxiv.org/abs/1905.01386)          |               |
+
 </p>
 </details>
 
 ### 2. Retrieval
 <details><summary><b>2.1 Indexing </b></summary>
 <p>
-  
+
  **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
 |:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
 | Pearl | Pearl: Personalizing large language model writing assistants with generation-calibrated retrievers |     Personalized Indexing     |    ACL 2024    | [[Link]](https://aclanthology.org/2024.customnlp4u-1.16.pdf) | 
@@ -95,7 +114,7 @@
 
 <details><summary><b>3.1 Generation from Explicit Preference</b></summary>
 <p>
-  
+
 **Name**       | **Title**                                                                                                |  **Personalized presentation**  |  **Publication**  |                                                                               **Paper Link**                                                                               |                                  **Code Link**                                  |
 |:-------------------:|:---------------------------------------------------------------------------------------------------------|:-------------------------------:|:-----------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
 |         P2          | Evaluating and inducing personality in pre-trained language models                                       |         Role Playing            | NeurIPS 2023      |                         [[Link]](https://proceedings.neurips.cc/paper_files/paper/2023/file/21f7b745f73ce0d1f9bcea7f40b1388e-Paper-Conference.pdf)                         |[[Link]](https://sites.google.com/view/machinepersonality)                       |
@@ -120,7 +139,7 @@
 <details><summary><b>3.2 Generation from Implicit Preference</b></summary>
 <p>
 
-  
+
 **Name**       | **Title** |              **Personalized presentation**              |                **Publication**                 |                **Paper Link**                |                                                              **Code Link**                                                               |
 |:-----------------:|:---|:-------------------------------------------------------:|:----------------------------------------------:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------:|
 |       PLoRA       | Personalized LoRA for Human-Centered Text Understanding                                                             | Personalized Text Understanding       |                   AAAI 2024                    | [[Link]](https://arxiv.org/pdf/2403.06208)                    |  [[Link]](https://github.com/yoyo-yun/PLoRA)                       |
