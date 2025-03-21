@@ -12,17 +12,17 @@
  **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
 |:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
 | Least-to-most Prompting | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models |     Split by sub-query terms in different questions     |    ICLR 2023    | [[Link]](https://openreview.net/forum?id=WZH7099tgfM) |
-| Personalized Search-based Query Rewrite System for Conversational AI |     Build a personalized index for each user     |    ACL 2021    | [[Link]](https://aclanthology.org/2021.nlp4convai-1.17/) |
-| Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM |      Use agents for efficient query rewriting.     |    Arxiv 2023    | [[Link]](https://arxiv.org/pdf/2312.15450) |
-| Query Rewriting in TaoBao Search |      A learning enhanced architecture based on “query retrieval−semantic relevance”.      |    CIKM 2022    | [[Link]](https://dl.acm.org/doi/abs/10.1145/3511808.3557068?casa_token=UdZBGUHNJQYAAAAA:eetXcV5SxHrcP-82xXpYJa2jR1-0eeKgaaRa_raoEQks4q2CwXUP_VseC_3bGE8qM1_dgQYnC32T) |
-| Learning to rewrite prompts for personalized text generation |       Multistage framework for personalized rewrites.       |    WWW 2024    | [[Link]](https://dl.acm.org/doi/abs/10.1145/3589334.3645408) |
-| CGF: Constrained Generation Framework for Query Rewriting in Conversational AI |       Personalized prompt rewriting by using an LLM agent.       |    ACL 2022    | [[Link]](https://aclanthology.org/2022.emnlp-industry.48.pdf) |
-| RL-based Query Rewriting with Distilled LLM for online E-Commerce Systems |       Student model to rewrite query.       |    Arxiv 2025    | [[Link]](https://arxiv.org/pdf/2501.18056) |
-| Cognitive Personalized Search Integrating Large Language Models with an Efficient Memory Mechanism |        Personalized query intent.      |    WWW 2024    | [[Link]](https://dl.acm.org/doi/abs/10.1145/3589334.3645482) |
-| BASES: Large-scale Web Search User Simulation with Large Language Model based Agents |        User simulation agent.       |    Arxiv 2024    | [[Link]](https://arxiv.org/pdf/2402.17505v1) |
-| ERAGent: Enhancing Retrieval-Augmented Language Models with Improved Accuracy, Efficiency, and Personalization |        Collaorative module for query rewrite.       |    Arxiv 2024    | [[Link]](https://arxiv.org/pdf/2405.06683) |
-| PEARL: Personalizing Large Language Model Writing Assistants with Generation-Calibrated Retrievers |      Personlaized LLM for query write.       |    Arxiv 2024    | [[Link]](https://arxiv.org/pdf/2311.09180) |
-| Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding |      Graph-based methods with LLMs to query rewrite       |    Arxiv 2023    | [[Link]](https://arxiv.org/pdf/2305.14449) |
+|  | Personalized Search-based Query Rewrite System for Conversational AI |     Build a personalized index for each user     |    ACL 2021    | [[Link]](https://aclanthology.org/2021.nlp4convai-1.17/) |
+| Agent4Ranking | Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM |      Use agents for efficient query rewriting.     |    Arxiv 2023    | [[Link]](https://arxiv.org/pdf/2312.15450) |
+| Least-to-most Prompting | Query Rewriting in TaoBao Search |      A learning enhanced architecture based on “query retrieval−semantic relevance”.      |    CIKM 2022    | [[Link]](https://dl.acm.org/doi/abs/10.1145/3511808.3557068?casa_token=UdZBGUHNJQYAAAAA:eetXcV5SxHrcP-82xXpYJa2jR1-0eeKgaaRa_raoEQks4q2CwXUP_VseC_3bGE8qM1_dgQYnC32T) |
+| CLE-QR | Learning to rewrite prompts for personalized text generation |       Multistage framework for personalized rewrites.       |    WWW 2024    | [[Link]](https://dl.acm.org/doi/abs/10.1145/3589334.3645408) |
+| CGF | CGF: Constrained Generation Framework for Query Rewriting in Conversational AI |       Personalized prompt rewriting by using an LLM agent.       |    ACL 2022    | [[Link]](https://aclanthology.org/2022.emnlp-industry.48.pdf) |
+|  | RL-based Query Rewriting with Distilled LLM for online E-Commerce Systems |       Student model to rewrite query.       |    Arxiv 2025    | [[Link]](https://arxiv.org/pdf/2501.18056) |
+| CoPS | Cognitive Personalized Search Integrating Large Language Models with an Efficient Memory Mechanism |        Personalized query intent.      |    WWW 2024    | [[Link]](https://dl.acm.org/doi/abs/10.1145/3589334.3645482) |
+| BASES | BASES: Large-scale Web Search User Simulation with Large Language Model based Agents |        User simulation agent.       |    Arxiv 2024    | [[Link]](https://arxiv.org/pdf/2402.17505v1) |
+| ERAGent | ERAGent: Enhancing Retrieval-Augmented Language Models with Improved Accuracy, Efficiency, and Personalization |        Collaorative module for query rewrite.       |    Arxiv 2024    | [[Link]](https://arxiv.org/pdf/2405.06683) |
+| PEARL| PEARL: Personalizing Large Language Model Writing Assistants with Generation-Calibrated Retrievers |      Personlaized LLM for query write.       |    Arxiv 2024    | [[Link]](https://arxiv.org/pdf/2311.09180) |
+| FIG | Graph Meets LLM: A Novel Approach to Collaborative Filtering for Robust Conversational Understanding |      Graph-based methods with LLMs to query rewrite       |    Arxiv 2023    | [[Link]](https://arxiv.org/pdf/2305.14449) |
 
 
 </p>
