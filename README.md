@@ -1,50 +1,119 @@
-# Awesome-Personalized-RAG-Agent
+<a name="readme-top"></a>
 
-![Awesome](https://awesome.re/badge.svg)  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+<div align="center">
+  <img src="./assets/logo.ico" alt="Logo" width="200">
+  <h1 align="center">Awesome-Personalized-RAG-Agent</h1>
+</div>
 
-## Papers
+<p align="center">
+    <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/License-Apache_2.0-blue">
+    </a>
+    <a href=''><img src='https://img.shields.io/badge/arXiv-0000.0000-b31b1b'></a>
+</p>
+
+
+
+<hr>
+
+
+🎯 **Awesome-Personalized-RAG-Agent** is a curated collection of papers, resources, benchmarks, and datasets focused on **Personalized Retrieval-Augmented Generation (RAG)** and **personalized agentic RAG system**.
+
+Personalization has become a cornerstone in modern AI systems, enabling customized interactions that reflect individual user preferences, contexts, and goals. Recent research has increasingly explored **RAG frameworks** and their evolution into **agent-based architectures**, aiming to improve user alignment and satisfaction.
+
+This repository systematically categorizes personalization across the three core stages of RAG:
+- **Pre-retrieval** (e.g., query rewriting and expansion),
+- **Retrieval** (e.g., indexing, personalized reranking),
+- **Generation** (e.g., using explicit or implicit user signals).
+
+Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agents**—systems enhanced with **agentic functionalities** such as dynamic user modeling, personalized planning, memory integration, and autonomous behavior.
+
+📚 This list is continuously updated.
+
+## 🔥 News
+
+<div class="scrollable">
+    <ul>
+      <li><strong>[2025, Apr 5]</strong>: &nbsp;🚀🚀 Our paper is now available on 
+      <a href="https://" target="_blank">arXiv</a>, and the reading list is on 
+      <a href="https://" target="_blank">GitHub Repo</a>.
+    </ul>
+</div>
+
+## 🧭 Table of Contents
+
+- [📃 Papers](#-papers)
+  - [1. Pre-retrieval](#1-pre-retrieval)
+    - [🔄 1.1 Query Rewriting](#-11-query-rewriting)
+    - [➕ 1.2 Query Expansion](#-12-query-expansion)
+    - [🛠️ 1.3 Other Query-related](#-13-other-query-related)
+  - [2. Retrieval](#2-retrieval)
+    - [🗂️ 2.1 Indexing](#-21-indexing)
+    - [🔍 2.2 Retrieve](#-22-retrieve)
+    - [🧹 2.3 Post-Retrieve](#-23-post-retrieve)
+  - [3. Generation](#3-generation)
+    - [🎯 3.1 Generation from Explicit Preference](#-31-generation-from-explicit-preference)
+    - [🕵️ 3.2 Generation from Implicit Preference](#-32-generation-from-implicit-preference)
+  - [4. Agentic RAG](#4-agentic-rag)
+    - [🧠 4.1 Understanding](#-41-understanding)
+    - [🗺️ 4.2 Planing and Execution](#-42-planing-and-execution)
+    - [✍️ 4.3 Generation](#-43-generation)
+- [📚 Datasets and Evaluation](#-datasets-and-evaluation)
+- [🔗 Related Surveys and Repositories](#-related-surveys-and-repositories)
+  - [📚 Surveys](#-surveys)
+  - [📁 Repositories](#-repositories)
+- [🚀 Contributing](#-contributing)
+- [📌 Citation](#-citation)
+
+
+## 📃  Papers
 
 ### 1. Pre-retrieval
-<details><summary><b>1.1 Query Rewriting</b></summary>
+#### 🔄 1.1 Query Rewriting
 
-<p>
-
- **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
-|:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
-| Least-to-most Prompting | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models |     Split by sub-query terms in different questions     |    ICLR 2023    | [[Link]](https://openreview.net/forum?id=WZH7099tgfM) |
-
-
-</p>
-</details>
-
-<details><summary><b>1.2 Query Expansion</b></summary>
-<p>
-
-
-</p>
-</details>
-
-<details><summary><b>1.3 Other Query-related</b></summary>
-<p>
+| **Name**                  | **Title**                                                                                                 | **Personalized presentation**                              | **Publication**       | **Paper Link**                                                                                                                             | **Code Link**  |
+|---------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|----------------|
+| CLE-QR                    | Query Rewriting in TaoBao Search                                                                          | Training models on user queries for personalized rewriting | CIKM 2022              | [Link](https://dl.acm.org/doi/abs/10.1145/3511808.3557068)                                                                                 |                |
+| CGF                       | CGF: Constrained Generation Framework for Query Rewriting in Conversational AI                            | Training agenta for personalized rewiring                  | ACL 2022               | [Link](https://aclanthology.org/2022.emnlp-industry.48.pdf)                                                                                |                |
+| PEARL                     | PEARL: Personalizing LLM Writing Assistants with Generation-Calibrated Retrievers                         | Aligning retrieval with user-written content               | 5 Nov 2024             | [Link](https://arxiv.org/pdf/2311.09180)                                                                                                   |                |
+| Least-to-Most Prompting   | Least-to-Most Prompting Enables Complex Reasoning in Large Language Models                                | Decomposing the query into simpler subqueries              | ICLR 2023              | [Link](https://openreview.net/forum?id=WZH7099tgfM)                                                                                        |                |
+| ERAGent                   | ERAGent: Enhancing Retrieval-Augmented LMs with Accuracy, Efficiency, and Personalization                 | Learning from user history with experiential learners      | 6 May 2024             | [Link](https://arxiv.org/pdf/2405.06683)                                                                                                   |                |
+| CoPS                      | Cognitive Personalized Search Integrating LLMs with Efficient Memory Mechanism                            | Building a user memory bank based on cognitive theory      | WWW 2024               | [Link](https://dl.acm.org/doi/abs/10.1145/3589334.3645482)                                                                                 | Not provided   |
+| Agent4Ranking             | Agent4Ranking: Semantic Robust Ranking via Personalized Query Rewriting Using Multi-agent LLM             | Using agents to rewrite queries in a personalized way      | 2023/12/24             | [Link](https://arxiv.org/pdf/2312.15450)                                                                                                   |                |
+| FIG                       | Graph Meets LLM: Collaborative Filtering for Robust Conversational Understanding                          | User feedback graph for personalized query rewriting       | 19 Jan 2023            | [Link](https://arxiv.org/pdf/2305.14449)                                                                                                   |                |
+| BASES                     | BASES: Large-scale Web Search User Simulation with LLM-based Agents                                       | Simulating users to construct personalized data            | 27 Feb 2024            | [Link](https://arxiv.org/pdf/2402.17505v1)                                                                                                 | To be released |
+|                           | Personalized Search-based Query Rewrite System for Conversational AI                                      | Personalized index, personalized query rewriting           | ACL 2021               | [Link](https://aclanthology.org/2021.nlp4convai-1.17/)                                                                                     |                |
 
 
-</p>
-</details>
+#### ➕ 1.2 Query Expansion
+
+| **Name**                     | **Title**                                                                                   | **Personalized presentation**                                             | **Publication** | **Paper Link**                                                                                                               | **Code Link** |
+|------------------------------|---------------------------------------------------------------------------------------------|---------------------------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------|---------------|
+| PQEWC                        | Personalized Query Expansion with Contextual Word Embeddings                                | Topic modeling and dynamic term selection based on user text              | 11 Dec 2023      | [Link](https://dl-acm-org.ezproxy.cityu.edu.hk/doi/10.1145/3624988)                                                          |               |
+| bender2008exploiting         | Exploiting social relations for query expansion and result ranking                          | Leveraging friendship and tagging graphs for personalized expansion       | 2008             | [Link](https://ieeexplore-ieee-org.ezproxy.cityu.edu.hk/search/searchresult.jsp?newsearch=true&queryText=exploiting%20social%20relations%20for%20query%20expansion%20and%20result%20ranking) |               |
+| Gossple                      | Toward personalized query expansion                                                         | Using TagMap and TagRank to extract user-related tags from social context | 2009             | [Link](https://dl-acm-org.ezproxy.cityu.edu.hk/doi/pdf/10.1145/1578002.1578004)                                              |               |
+| biancalana2009social         | Social tagging in query expansion: A new way for personalized web search                    | Building user-interest-based tag co-occurrence matrix                     | 2009             | [Link](https://ieeexplore-ieee-org.ezproxy.cityu.edu.hk/stamp/stamp.jsp?tp=&arnumber=5283040)                                |               |
+| PSQE                         | Personalized social query expansion using social annotations                                | User profiling via tag behavior and real-time tag expansion               | 2019             | [Link](https://rbouadjenek.github.io/papers/TLDKS-12008.pdf)                                                                 |               |
+| SoQuES                       | Personalized social query expansion using social bookmarking systems                        | Combining tag similarity and social closeness for better expansion terms  | 2011             | [Link](https://dl-acm-org.ezproxy.cityu.edu.hk/doi/pdf/10.1145/2009916.2010075)                                              |               |
+| mulhem2016axiomatic          | Axiomatic term-based personalized query expansion using bookmarking system                  | Axiomatic rules derived from social tagging and local user behavior       | 2016             | [Link](https://link.springer.com/chapter/10.1007/978-3-319-44406-2_17)                                                       |               |
+| WE-LM                        | Personalized query expansion utilizing multi-relational social data                         | Affinity graphs from tags/words + pseudo-relevance feedback               | 2017             | [Link](https://ieeexplore-ieee-org.ezproxy.cityu.edu.hk/stamp/stamp.jsp?tp=&arnumber=8022669)                                |               |
+| zhou2012improving            | Improving search via personalized query expansion using social media                        | Latent graph + social tagging user profiles                               | 2012             | [Link](https://link.springer.com/article/10.1007/s10791-012-9191-2)                                                          |               |
+| PNQES                        | Personalized Optimal Search in Local Query Expansion                                        | LLSF-based user profiles and density ranking                              | 2006             |                                                                                                                              |               |
+| Bobo                         | Utilizing user-input contextual terms for query disambiguation                              | Domain-specific input from users for re-ranking                           | 2010             | [Link](https://aclanthology.org/C10-2038.pdf)                                                                               |               |
+| kannadasan2019personalized   | Personalized Query Auto-Completion Through a Lightweight Representation of the User Context | Embedding-based query ranking using fastText on user context              | 2019             | [Link](https://arxiv.org/abs/1905.01386)                                                                                      |               |
+
+
+#### 🛠️ 1.3 Other Query-related
+
 
 ### 2. Retrieval
-<details><summary><b>2.1 Indexing </b></summary>
-<p>
+#### 🗂️ 2.1 Indexing
   
  **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
 |:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
 | Pearl | Pearl: Personalizing large language model writing assistants with generation-calibrated retrievers |     Personalized Indexing     |    ACL 2024    | [[Link]](https://aclanthology.org/2024.customnlp4u-1.16.pdf) | 
 
 
-</p>
-</details>
-
-<details><summary><b>2.2 Retrieve </b></summary>
-<p>
+#### 🔍 2.2 Retrieve
 
  **Name** | **Title**                                                                                                                |                    **Personalized presentation**                    | **Publication** |                **Paper Link**                |                              **Code Link**                               |
 |:---:|:-------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------:|:---------------:|:---:|:------------------------------------------------------------------------:|
@@ -67,23 +136,15 @@
 |            | A zero attention model for  personalized product search                                                                  |                         Personalized Search                         | CIKM 2019          | [[Link]](https://dl.acm.org/doi/pdf/10.1145/3357384.3357980) |                                                                          |
 | RTM        | Learning a Fine-Grained  Review-based Transformer Model for Personalized Product Search                                  |                         Personalized Search                         | SIGIR 2021         | [[Link]](https://dl.acm.org/doi/pdf/10.1145/3404835.3462911) |             [[Link]](https://github.com/kepingbi/ProdSearch)             |
 
-</p>
-</details>
-
-<details><summary><b>2.3 Post-Retrieve</b></summary>
-<p>
+#### 🧹 2.3 Post-Retrieve
 
  **Name** | **Title** |              **Personalized presentation**              | **Publication** |                **Paper Link**                | **Code Link**                |
 |:---:|:---|:-------------------------------------------------------:|:---------------:|:---:|:--------------------------------------------:|
 | LLM4Rerank | LLM4Rerank: LLM-based Auto-Reranking Framework for Recommendations|     Personalized Recommendation      |    WWW 2025    | [[Link]](https://arxiv.org/pdf/2406.12433v3) |
 
-</p>
-</details>
-
 ### 3. Generation
 
-<details><summary><b>3.1 Generation from Explicit Preference</b></summary>
-<p>
+#### 🎯 3.1 Generation from Explicit Preference
   
 **Name**       | **Title**                                                                                                |  **Personalized presentation**  |  **Publication**  |                                                                               **Paper Link**                                                                               |                                  **Code Link**                                  |
 |:-------------------:|:---------------------------------------------------------------------------------------------------------|:-------------------------------:|:-----------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------:|
@@ -103,86 +164,136 @@
 |        SGPT         | Unlocking the potential of prompt-tuning in bridging generalized and personalized federated learning     | Personalized Federated Learning |     CVPR 2024     | [[Link]](https://openaccess.thecvf.com/content/CVPR2024/papers/Deng_Unlocking_the_Potential_of_Prompt-Tuning_in_Bridging_Generalized_and_Personalized_CVPR_2024_paper.pdf) |                    [[Link]](https://github.com/ubc-tea/SGPT)                    |
 |        PFCL         | Personalized federated continual learning via multi-granularity prompt                                   | Personalized Federated Learning |     KDD 2024      |                                                        [[Link]](https://dl.acm.org/doi/abs/10.1145/3637528.3671948)                                                        |               [[Link]](https://github.com/SkyOfBeginning/FedMGP)                |
 
-</p>
-</details>
+#### 🕵️ 3.2 Generation from Implicit Preference
 
-<details><summary><b>3.2 Generation from Implicit Preference</b></summary>
-<p>
+**Name**       | **Title**                                                                                                             |     **Personalized presentation**     |                **Publication**                 |                         **Paper Link**                          |                            **Code Link**                            |
+|:-----------------:|:----------------------------------------------------------------------------------------------------------------------|:-------------------------------------:|:----------------------------------------------:|:---------------------------------------------------------------:|:-------------------------------------------------------------------:|
+|       PLoRA       | Personalized LoRA for Human-Centered Text Understanding                                                               |    Personalized Text Understanding    |                   AAAI 2024                    | [[Link]](https://arxiv.org/pdf/2403.06208)                      | [[Link]](https://github.com/yoyo-yun/PLoRA)                         |
+|       LM-P        | Personalized Large Language Models                                                                                    |       Personalized Fine-tuning        |    SENTIRE 2024 (ICDM Workshop)                |           [[Link]](https://arxiv.org/pdf/2402.09269)            |         [[Link]](https://github.com/Rikain/llm-finetuning)          |
+|       MiLP        | Personalized LLM Response Generation with Parameterized User Memory Injection                                         |     Personalized Text Generation      |                     Arxiv                      |           [[Link]](https://arxiv.org/pdf/2404.03565)            |            [[Link]](https://github.com/MatthewKKai/MiLP)            |
+|       OPPU        | Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning                                  |     Personalized Text Generation      |                   EMNLP 2024                   |   [[Link]](https://aclanthology.org/2024.emnlp-main.372.pdf)    |             [[Link]](https://github.com/TamSiuhin/OPPU)             |
+|      PER-PCS      | PERSONALIZED PIECES: Efficient Personalized Large Language Models through Collaborative Efforts                       |     Personalized Text Generation      |                   EMNLP 2024                   |   [[Link]](https://aclanthology.org/2024.emnlp-main.371.pdf)    |           [[Link]](https://github.com/TamSiuhin/Per-Pcs)            |
+|    Review-LLM     | Review-LLM: Harnessing Large Language Models for Personalized Review Generation                                       |    Personalized Review Generation     |                     Arxiv                      |           [[Link]](https://arxiv.org/pdf/2407.07487)            |                                                                     |
+|  UserIdentifier   | UserIdentifier: Implicit User Representations for Simple and Effective Personalized Sentiment Analysis                |    Personalized Text Understanding    |                   NAACL 2022                   |   [[Link]](https://aclanthology.org/2022.naacl-main.252.pdf)    |                                                                     |
+|    UserAdapter    | UserAdapter: Few-Shot User Learning in Sentiment Analysis                                                             |    Personalized Text Understanding    |               ACL Fingdings 2021               |  [[Link]](https://aclanthology.org/2021.findings-acl.129.pdf)   |                                                                     |
+|       HYDRA       | HYDRA: Model Factorization Framework for Black-Box LLM Personalization                                                | Personalized Reranking and Generation |                  NeurIPS 2024                  |           [[Link]](https://arxiv.org/pdf/2406.02888)            |            [[Link]](https://github.com/night-chen/HYDRA)            |
+|     PocketLLM     | PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs                                                       |     Personalized Text Generation      |         PrivateNLP 2024 (ACL Workshop)         |   [[Link]](https://aclanthology.org/2024.privatenlp-1.10.pdf)   |                                                                     |
+|     CoGenesis     | CoGenesis: A Framework Collaborating Large and Small Language Models for Secure Context-Aware Instruction Following   |     Personalized Text Generation      |                    ACl 2024                    |           [[Link]](https://arxiv.org/pdf/2403.03129)            |         [[Link]](https://github.com/TsinghuaC3I/CoGenesis)          |
+|      P-RLHF       | P-RLHF: Personalized Language Modeling from Personalized Human Feedback                                               |     Personalized Text Generation      |                     Arxiv                      |           [[Link]](https://arxiv.org/pdf/2402.05133)            |      [[Link]](https://github.com/HumainLab/Personalized_RLHF)       |
+|      P-SOUPS      | Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging                        |     Personalized Text Generation      | Adaptive Foundation Models 2024 (NeurIPS 2024) |       [[Link]](https://openreview.net/pdf?id=EMrnoPRvxe)        |             [[Link]](https://github.com/joeljang/RLPHF)             |
+|        PAD        | PAD: Personalized Alignment of LLMs at Decoding-Time                                                                  |     Personalized Text Generation      |                   ICLR 2025                    |           [[Link]](https://arxiv.org/pdf/2410.04070)            |           [[Link]](https://github.com/zjuruizhechen/PAD)            |
+|      REST-PG      | Reasoning-enhanced self-training for long-form personalized Text Generation                                           |     Personalized Text Generation      |                     Arxiv                      |           [[Link]](https://arxiv.org/pdf/2501.04167)            |                                                                     |
+|                   | Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation                           | Personalized Retrieval and Generation |                   SIGIR 2024                   |  [[Link]](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783)   |                                                                     |
+|   RewriterSlRl    | Learning to Rewrite Prompts for Personalized Text Generation                                                          |     Personalized Text Generation      |                    WWW 2024                    |           [[Link]](https://arxiv.org/pdf/2310.00152)            |                                                                     |
+|                   | Reinforcement learning for optimizing rag for domain chatbots                                                         |         Personalized Chatbot          |          RL+LLMs 2024 (AAAI Workshop)          |           [[Link]](https://arxiv.org/pdf/2401.06800)            |                                                                     |
 
-  
-**Name**       | **Title** |              **Personalized presentation**              |                **Publication**                 |                **Paper Link**                |                                                              **Code Link**                                                               |
-|:-----------------:|:---|:-------------------------------------------------------:|:----------------------------------------------:|:---:|:----------------------------------------------------------------------------------------------------------------------------------------:|
-|       PLoRA       | Personalized LoRA for Human-Centered Text Understanding                                                             | Personalized Text Understanding       |                   AAAI 2024                    | [[Link]](https://arxiv.org/pdf/2403.06208)                    |  [[Link]](https://github.com/yoyo-yun/PLoRA)                       |
-|       LM-P        | Personalized Large Language Models                                                                                  | Personalized Fine-tuning              |          SENTIRE 2024 (ICDM Workshop)          | [[Link]](https://arxiv.org/pdf/2402.09269)                    |  [[Link]](https://github.com/Rikain/llm-finetuning)                |
-|       MiLP        | Personalized LLM Response Generation with Parameterized User Memory Injection                                       | Personalized Text Generation          |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2404.03565)                    |  [[Link]](https://github.com/MatthewKKai/MiLP)                     |
-|       OPPU        | Democratizing Large Language Models via Personalized Parameter-Efficient Fine-tuning                                | Personalized Text Generation          |                   EMNLP 2024                   | [[Link]](https://aclanthology.org/2024.emnlp-main.372.pdf)    |  [[Link]](https://github.com/TamSiuhin/OPPU)                       |
-|      PER-PCS      | PERSONALIZED PIECES: Efficient Personalized Large Language Models through Collaborative Efforts                     | Personalized Text Generation          |                   EMNLP 2024                   | [[Link]](https://aclanthology.org/2024.emnlp-main.371.pdf)    |  [[Link]](https://github.com/TamSiuhin/Per-Pcs)                    |
-|    Review-LLM     | Review-LLM: Harnessing Large Language Models for Personalized Review Generation                                     | Personalized Review Generation        |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2407.07487)                    |                                                                    |
-|  UserIdentifier   | UserIdentifier: Implicit User Representations for Simple and Effective Personalized Sentiment Analysis              | Personalized Text Understanding       |                   NAACL 2022                   | [[Link]](https://aclanthology.org/2022.naacl-main.252.pdf)    |                                                                    |
-|    UserAdapter    | UserAdapter: Few-Shot User Learning in Sentiment Analysis                                                           | Personalized Text Understanding       |               ACL Fingdings 2021               | [[Link]](https://aclanthology.org/2021.findings-acl.129.pdf)  |                                                                    |
-|       HYDRA       | HYDRA: Model Factorization Framework for Black-Box LLM Personalization                                              | Personalized Reranking and Generation |                  NeurIPS 2024                  | [[Link]](https://arxiv.org/pdf/2406.02888)                    |  [[Link]](https://github.com/night-chen/HYDRA)                     |
-|     PocketLLM     | PocketLLM: Enabling On-Device Fine-Tuning for Personalized LLMs                                                     | Personalized Text Generation          |         PrivateNLP 2024 (ACL Workshop)         | [[Link]](https://aclanthology.org/2024.privatenlp-1.10.pdf)   |                                                                    |
-|     CoGenesis     | CoGenesis: A Framework Collaborating Large and Small Language Models for Secure Context-Aware Instruction Following | Personalized Text Generation          |                    ACl 2024                    | [[Link]](https://arxiv.org/pdf/2403.03129)                    |  [[Link]](https://github.com/TsinghuaC3I/CoGenesis)                |
-|      P-RLHF       | P-RLHF: Personalized Language Modeling from Personalized Human Feedback                                             | Personalized Text Generation          |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2402.05133)                    |  [[Link]](https://github.com/HumainLab/Personalized_RLHF)          |
-|      P-SOUPS      | Personalized Soups: Personalized Large Language Model Alignment via Post-hoc Parameter Merging                      | Personalized Text Generation          | Adaptive Foundation Models 2024 (NeurIPS 2024) | [[Link]](https://openreview.net/pdf?id=EMrnoPRvxe)            |  [[Link]](https://github.com/joeljang/RLPHF)                       |
-|        PAD        | PAD: Personalized Alignment of LLMs at Decoding-Time                                                                | Personalized Text Generation          |                   ICLR 2025                    | [[Link]](https://arxiv.org/pdf/2410.04070)                    |  [[Link]](https://github.com/zjuruizhechen/PAD)                    |
-|      REST-PG      | Reasoning-enhanced self-training for long-form personalized Text Generation                                         | Personalized Text Generation          |                     Arxiv                      | [[Link]](https://arxiv.org/pdf/2501.04167)                    |                                                                    |
-|                   | Optimization Methods for Personalizing Large Language Models through Retrieval Augmentation                         | Personalized Retrieval and Generation |                  SIGIR 2024                    | [[Link]](https://dl.acm.org/doi/pdf/10.1145/3626772.3657783)  |                                                                    |
-|   RewriterSlRl    | Learning to Rewrite Prompts for Personalized Text Generation                                                        | Personalized Text Generation          |                   WWW 2024                     | [[Link]](https://arxiv.org/pdf/2310.00152)                    |                                                                    |
-|                   | Reinforcement learning for optimizing rag for domain chatbots                                                       | Personalized Chatbot                  |       RL+LLMs 2024 (AAAI Workshop)             | [[Link]](https://arxiv.org/pdf/2401.06800)                    |                                                                    |
-
-</p>
-</details>
 
 ### 4. Agentic RAG
 
-<details><summary><b> 4.1 Understanding </b></summary>
-<p>
+#### 🧠 4.1 Understanding
+
+| **Name**                     | **Title**                                                  | **Personalized Presentation**                                      | **Publication**     | **Paper Link**                                               | **Code Link**                                               |
+|------------------------------|------------------------------------------------------------|--------------------------------------------------------------------|---------------------|--------------------------------------------------------------|-------------------------------------------------------------|
+| PLoRA                        | Personalized LoRA for Human-Centered Text Understanding    | Personalized Text Understanding                                    | AAAI 2024           | [Link](https://arxiv.org/pdf/2403.06208)                     | [Link](https://github.com/yoyo-yun/PLoRA)                   |
+| Penetrative AI               | Penetrative AI: Making LLMs Comprehend the Physical World  | User interaction with physical-world data via sensors              | ACL Findings 2024   | [Link](https://arxiv.org/abs/2310.09605)                     | [Link](https://hkustwands.github.io/penetrative-ai/)        |
+| Conversational Health Agents | A Personalized LLM-Powered Agent Framework                 | Personalized healthcare support via health data and knowledge base | Arxiv Sep 2024      | [Link](https://arxiv.org/pdf/2310.02374)                     | [Link](https://github.com/Institute4FutureHealth/CHA)       |
+| Voyager                      | An Open-Ended Embodied Agent with Large Language Models    | Minecraft agent simulation and skill learning                      | TMLR 2024           | [Link](https://arxiv.org/abs/2305.16291)                     | [Link](https://voyager.minedojo.org/)                       |
+| Language Planner             | Language models as zero-shot planners for embodied agents  | Task planning in virtual environments                              | ICML 2022           | [Link](https://arxiv.org/pdf/2201.07207)                     | [Link](https://wenlong.page/language-planner/)              |
+| BOSS                         | Bootstrap Your Own Skills: LLM-Guided Robot Skill Learning | Robotic arm learning to manipulate objects                         | CoRL 2023           | [Link](https://arxiv.org/pdf/2310.10021)                     | [Link](https://clvrai.github.io/boss/)                      |
+| UI-LLM                       | Enabling Conversational Interaction with Mobile UI         | Mobile UI interaction with LLMs                                    | CHI 2023            | [Link](https://arxiv.org/abs/2209.08655)                     |                                                             |
+| Generative Agents            | Generative agents simulating human behavior                | Simulation of social and individual behaviors in Stanford Town     | UIST 2023           | [Link](https://arxiv.org/abs/2304.03442)                     |                                                             |
+| RecAgent                     | User Behavior Simulation with LLM-based Agents             | Simulation of user behavior in recommender systems                 | Arxiv Feb 2024      | [Link](https://arxiv.org/abs/2306.02552)                     |                                                             |
+| MetaGPT                      | Meta Programming for Multi-Agent Collaboration             | Multi-agent collaboration for complex tasks                        | ICLR 2024           | [Link](https://arxiv.org/pdf/2308.00352)                     |                                                             |
+| OKR-Agent                    | Objective and Key Results Driven Agent System              | Role-assigned agents solving creative tasks                        | Arxiv Nov 2023      | [Link](https://arxiv.org/pdf/2311.16542)                     | [Link](https://okr-agent.github.io/)                        |
+| RoleLLM                      | Role-Playing Abilities of LLMs                             | LLMs role-playing characters                                       | Arxiv Jun 2024      | [Link](https://arxiv.org/pdf/2310.00746)                     |                                                             |
+| Character-llm                | A Trainable Agent for Role-Playing                         | LLM character simulation with memory/personality                   | EMNLP 2023          | [Link](https://arxiv.org/pdf/2310.10158)                     | [Link](https://github.com/choosewhatulike/trainable-agents) |
+| Socialbench                  | Sociality Evaluation of Role-Playing Agents                | Benchmarking social interaction ability in role-playing            | ACL 2024 Findings   | [Link](https://arxiv.org/pdf/2403.13679)                     | [Link](https://github.com/X-PLUG/SocialBench)               |
+| MMRole                       | Multimodal Role-Playing Agent Framework                    | Consistent multimodal understanding and role play                  | ICLR 2025           | [Link](https://arxiv.org/abs/2408.04203)                     | [Link](https://github.com/YanqiDai/MMRole)                  |
+| RolePersonality              | Enhancing Role-Playing LLMs with Personality Data          | Personality-focused character simulation                           | EMNLP 2024 Findings | [Link](https://arxiv.org/pdf/2406.18921)                     | [Link](https://github.com/alienet1109/RolePersonality)      |
+| CharacterEval                | Chinese Benchmark for RP Conversational Agents             | Chinese dataset for role-playing agent evaluation                  | Arxiv Jan 2024      | [Link](https://arxiv.org/abs/2401.01275)                     | [Link](https://github.com/morecry/CharacterEval)            |
+| InCharacter                  | Evaluating Personality Fidelity via Interviews             | Psychological evaluation of role-play agents                       | ACL 2024            | [Link](https://aclanthology.org/2024.acl-long.102/)          | [Link](https://incharacter.github.io/)                      |
+| Neeko                        | Dynamic LoRA for Multi-Character Role-Play                 | Efficient multi-character simulation                               | EMNLP 2024          | [Link](https://arxiv.org/pdf/2402.13717)                     | [Link](https://github.com/weiyifan1023/Neeko)               |
+| SAFARI                       | LLMs as Source Planners for Knowledge Dialogues            | Persona-aware planning using multi-source knowledge                | EMNLP 2023 Findings | [Link](https://aclanthology.org/2023.findings-emnlp.641.pdf) |                                                             |
+| PersonalWAB                  | Personalized Web Agents with LLMs                          | User profile + web action optimization                             | WWW 2025 Oral       | [Link](https://arxiv.org/pdf/2410.17236)                     |                                                             |
+| TravelPlanner+               | Personalized LLM Agents for Travel Planning                | Tailored travel based on user preferences                          | EMNLP 2024          | [Link](https://aclanthology.org/2024.emnlp-industry.37/)     |                                                             |
+| Self-reflection LLM          | Self-reflection Effects on LLM Problem-Solving             | Improves reasoning via reflection                                  | Arxiv Oct 2024      | [Link](https://arxiv.org/pdf/2405.06682)                     |                                                             |
+| EMG-RAG                      | Retrieval-Augmented Generation + Editable Memory Graph     | Personalized assistant using user memory                           | EMNLP 2024          | [Link](https://arxiv.org/abs/2409.19401)                     |                                                             |
+| Think2                       | Personality Consistency in Quantized Role Agents           | Robustness and consistency in constrained setups                   | EMNLP 2024          | [Link](https://aclanthology.org/2024.emnlp-industry.19/)     |                                                             |
+| MEMORYLLM                    | Towards Self-Updatable Language Models                     | Self-evolution via memory update                                   | ICML 2024           | [Link](https://arxiv.org/pdf/2402.04624)                     |                                                             |
+
+#### 🗺️ 4.2 Planing and Execution 
+
+#### ✍️ 4.3 Generation 
+
+
+## 📚 Datasets and Evaluation
+
+| **Field**              | **Dataset**                     | **Metrics**                                                      | **Link**                                                                         |
+|------------------------|----------------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------|
+| Query Rewriting        | SCAN                             | Accuracy                                                         | [Link]()                                                                         |
+| Query Rewriting        | Robust04                         | Accuracy                                                         | [Link]()                                                                         |
+| Query Rewriting        | Avocado Research Email Collection| BLEU, ROUGE                                                      | [Link]()                                                                         |
+| Query Rewriting        | Amazon Review                    | BLEU, ROUGE                                                      | [Link]()                                                                         |
+| Query Rewriting        | Reddit Comments                  | BLEU, ROUGE                                                      | [Link]()                                                                         |
+| Query Rewriting        | Amazon ESCI Dataset              | EM, ROUGE-L, XEntropy                                            | [Link]()                                                                         |
+| Query Rewriting        | AOL                              | MAP, MRR, P@1                                                    | [Link]()                                                                         |
+| Query Rewriting        | WARRIORS                         | MRR, NDCG                                                        | [Link]()                                                                         |
+| Query Rewriting        | AITA WORKSM                      | Macro-F1, BS-F1                                                  | [Link]()                                                                         |
+| Query Rewriting        | PIP                              | PMS, Image-Align, ROUGE                                          | [Link]()                                                                         |
+| Query Expansion        | Personalized Results Re-Ranking  | MAP, MRR, NDCG, RBP                                              | [Link]()                                                                         |
+| Query Expansion        | del.icio.us                      | Precision, MAP, MRR, Recall                                      | [Link]()                                                                         |
+| Query Expansion        | Flickr                           | Precision                                                        | [Link]()                                                                         |
+| Query Expansion        | CiteULike                        | Recall, MAP, MRR                                                 | [Link]()                                                                         |
+| Query Expansion        | LRDP                             | Precision, Recall, F1                                            | [Link]()                                                                         |
+| Query Expansion        | Delicious                        | MAP, MRR                                                         | [Link]()                                                                         |
+| Query Expansion        | Flickr                           | MAP, MRR                                                         | [Link]()                                                                         |
+| Query Expansion        | Bibsonomy                        | MAP, Precision, PQEC, Prof-overlap                               | [Link]()                                                                         |
+| Query Else             | Wikipedia                        | Precision, Recall                                                | [Link]()                                                                         |
+| Retrieval / Generation | TOPDIAL                          | BLEU, F1, Success Rate                                           | [Link](https://github.com/iwangjian/TopDial)                                     |
+| Retrieval / Generation | LiveChat                         | Recall, MRR                                                      | [Link](https://github.com/gaojingsheng/LiveChat)                                 |
+| Retrieval / Generation | PersonalityEvd                   | Accuracy, Fluency, Coherence, Plausibility                       | [Link](https://github.com/Lei-Sun-RUC/PersonalityEvd)                            |
+| Retrieval / Generation | Pchatbot                         | BLEU, ROUGE, Distinct, MRR                                       | [Link](https://github.com/qhjqhj00/SIGIR2021-Pchatbot)                           |
+| Retrieval / Generation | DuLemon                          | Perplexity, BLEU, Accuracy, Precision, Recall, F1                | [Link](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) |
+| Retrieval / Generation | PersonalityEdit                  | ES, DD, Accuracy, TPEI, PAE                                      | [Link](https://github.com/zjunlp/EasyEdit)                                       |
+| Generation             | LaMP                             | Accuracy, F1, MAE, RMSE, ROUGE                                   | [Link](https://lamp-benchmark.github.io/)                                        |
+| Generation             | LongLaMP                         | Accuracy, F1, MAE, RMSE, ROUGE                                   | [Link](https://longlamp-benchmark.github.io/)                                    |
+| Generation             | PGraphRAG                        | ROUGE, METEOR, MAE, RMSE                                         | [Link](https://github.com/PGraphRAG-benchmark/PGraphRAG)                         |
+| Generation             | AmazonQA Products                | ROUGE, Persona-F1                                                | [Link](https://arxiv.org/pdf/1610.08095)                                         |
+| Generation             | Reddit                           | ROUGE, Persona-F1                                                | [Link](https://aclanthology.org/2022.naacl-main.426.pdf)                         |
+| Generation             | MedicalDialogue                  | ROUGE, Persona-F1                                                | [Link](https://arxiv.org/pdf/2309.11696)                                         |
+| Generation             | Personalized-gen                 | Mean Success Rate, Median Relative Improvements, Fluency         | [Link](https://github.com/balhafni/personalized-gen)                             |
+
+## 🔗 Related Surveys and Repositories
+
+### 📚 Surveys
+
+#### 🧠 Personalized LLMs
+- [When Large Language Models Meet Personalization: Perspectives of Challenges and Opportunities](https://arxiv.org/pdf/2307.16376)
+- [Personalization of Large Language Models: A Survey](https://arxiv.org/pdf/2411.00027)
+- [A Survey of Personalized Large Language Models: Progress and Future Directions](https://arxiv.org/pdf/2502.11528#page=10.52)
+
+#### 🎭 Personalized Role-Playing
+- [From Persona to Personalization: A Survey on Role-Playing Language Agents](https://arxiv.org/pdf/2404.18231)
+- [Two Tales of Persona in LLMs: A Survey of Role-Playing and Personalization](https://arxiv.org/pdf/2406.01171)
+
+### 📁 Repositories
+
+- [Awesome Personalized Large Language Models (PLLMs)](https://github.com/JiahongLiu21/Awesome-Personalized-Large-Language-Models)  
+  A curated list of resources on personalized large language models.
+
+- [PersonaLLM Survey](https://github.com/MiuLab/PersonaLLM-Survey)  
+  Companion repository for the PersonaLLM survey, covering role-playing and personalization.
+
+- [Awesome Personalized LLM](https://github.com/HqWu-HITCS/Awesome-Personalized-LLM)  
+  A collection of papers and tools focused on personalized LLM development.
 
 
 
-</p>
-</details>
+## 🚀 Contributing
+We sincerely welcome you to contribute to this repository! 
 
-<details><summary><b> 4.2 Planing and Execution </b></summary>
-<p>
+🙌 Whether you're adding new papers or datasets/benchmarks, fixing bugs, improving the documentation, or suggesting ideas, every bit of help is appreciated.
 
-
-
-</p>
-</details>
-
-<details><summary><b> 4.3 Generation </b></summary>
-<p>
-
-
-
-</p>
-</details>
-
-
-## Datasets and Evaluation
-
-|        **Field**        |    **Dataset**    |                       **Matrics**                        |                                      **Link**                                      |
-|:-----------------------:|:-----------------:|:--------------------------------------------------------:|:----------------------------------------------------------------------------------:|
-|     Query Rewriting     |       SCAN        |                         Accuracy                         |               [[Link]](https://openreview.net/forum?id=WZH7099tgfM)                |
-| Retrieval / Generation  |      TOPDIAL      |                      BLEU, F1, Succ                      |                   [[Link]](https://github.com/iwangjian/TopDial)                   |
-| Retrieval / Generation  |     LiveChat      |                        Recall,MRR                        |                [[Link]]( https://github.com/gaojingsheng/LiveChat)                 |
-| Retrieval / Generation  |  PersonalityEvd   |           ACC,Fluency, Coherence, Plausibility           |              [[Link]](https://github.com/Lei-Sun-RUC/PersonalityEvd)               |
-| Retrieval / Generation  |     Pchatbot      |                  BLEU, ROUGE, Dist, MRR                  |              [[Link]](https://github.com/qhjqhj00/SIGIR2021-Pchatbot)              |
-| Retrieval / Generation  |      DuLemon      |           PPL, BLUE, ACC, Precision, Recall,F1           | [[Link]](https://github.com/PaddlePaddle/Research/tree/master/NLP/ACL2022-DuLeMon) |
-| Retrieval / Generation  |  PersonalityEdit  |                  ES, DD, Acc, TPEI, PAE                  |                    [[Link]](https://github.com/zjunlp/EasyEdit)                    |
-|       Generation        |       LaMP        |              Accuracy, F1, MAE, RMSE, ROUGE              |                    [[Link]](https://lamp-benchmark.github.io/)                     |
-|       Generation        |     LongLaMP      |              Accuracy, F1, MAE, RMSE, ROUGE              |                  [[Link]](https://longlamp-benchmark.github.io/)                   |
-|       Generation        |     PGraphRAG     |                 ROUGE, METEOR, MAE, RMSE                 |             [[Link]](https://github.com/PGraphRAG-benchmark/PGraphRAG)             |
-|       Generation        | AmazonQA Products |                    ROUGE, Persona F1                     |                     [[Link]](https://arxiv.org/pdf/1610.08095)                     |
-|       Generation        |      Reddit       |                    ROUGE, Persona F1                     |             [[Link]](https://aclanthology.org/2022.naacl-main.426.pdf)             |
-|       Generation        |  MedicalDialogue  |                    ROUGE, Persona F1                     |                     [[Link]](https://arxiv.org/pdf/2309.11696)                     |
-|       Generation        | Personalized-gen  | Mean Success Rate, Median Relative Improvements, Fluency |              [[Link]](https://github.com/balhafni/personalized-gen)                |
-
-
-[//]: # (acc==Accuracy?)
-## Contributing
-
-
-## Citation
+## 📌 Citation
+If you find this repository useful in your research, please consider citing our paper:
+```bibtex
