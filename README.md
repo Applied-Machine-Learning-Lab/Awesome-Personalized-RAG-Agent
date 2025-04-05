@@ -12,10 +12,11 @@
 </p>
 
 
+## 📘 Overview
 
+This is the official repository of the paper ["*A Survey of Personalization: From RAG to Agent*"](https://arxiv.org/abs/), arXiv.
 
-
-🎯 **Awesome-Personalized-RAG-Agent** is a curated collection of papers, resources, benchmarks, and datasets focused on **Personalized Retrieval-Augmented Generation (RAG)** and **personalized agentic RAG system**.
+🎯 Our repository **Awesome-Personalized-RAG-Agent** is a curated collection of papers, resources, benchmarks, and datasets focused on **Personalized Retrieval-Augmented Generation (RAG)** and **personalized agentic RAG system**.
 
 Personalization has become a cornerstone in modern AI systems, enabling customized interactions that reflect individual user preferences, contexts, and goals. Recent research has increasingly explored **RAG frameworks** and their evolution into **agent-based architectures**, aiming to improve user alignment and satisfaction.
 
@@ -25,8 +26,6 @@ This repository systematically categorizes personalization across the three core
 - **Generation** (e.g., using explicit or implicit user signals).
 
 Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agents**—systems enhanced with **agentic functionalities** such as dynamic user modeling, personalized planning, memory integration, and autonomous behavior.
-
-📚 This list is continuously updated.
 
 ## 🔥 News
 
