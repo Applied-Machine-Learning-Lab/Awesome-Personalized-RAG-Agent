@@ -8,13 +8,13 @@
 <p align="center">
     <a href=""><img alt="Static Badge" src="https://img.shields.io/badge/License-Apache_2.0-blue">
     </a>
-    <a href=''><img src='https://img.shields.io/badge/arXiv-0000.0000-b31b1b'></a>
+    <a href='https://arxiv.org/abs/2504.10147'><img src='https://img.shields.io/badge/arXiv-2504.10147-b31b1b'></a>
 </p>
 
 
 ## 📘 Overview
 
-This is the official repository of the paper ["*A Survey of Personalization: From RAG to Agent*"](https://arxiv.org/abs/), arXiv.
+This is the official repository of the paper ["*A Survey of Personalization: From RAG to Agent*"](https://arxiv.org/abs/2504.10147), arXiv.
 
 🎯 Our repository **Awesome-Personalized-RAG-Agent** is a curated collection of papers, resources, benchmarks, and datasets focused on **Personalized Retrieval-Augmented Generation (RAG)** and **personalized agentic RAG system**.
 
