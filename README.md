@@ -31,9 +31,9 @@ Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agen
 
 <div class="scrollable">
     <ul>
-      <li><strong>[2025, Apr 5]</strong>: &nbsp;🚀🚀 Our paper is now available on 
-      <a href="https://" target="_blank">arXiv</a>, and the reading list is on 
-      <a href="https://" target="_blank">GitHub Repo</a>.
+      <li><strong>[2025, Apr 15]</strong>: &nbsp;🚀🚀 Our paper is now available on 
+      <a href="https://arxiv.org/abs/2504.10147" target="_blank">arXiv</a>, and the reading list is on 
+      <a href="https://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent" target="_blank">GitHub Repo</a>.
     </ul>
 </div>
 
