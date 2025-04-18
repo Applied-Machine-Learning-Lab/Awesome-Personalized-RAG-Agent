@@ -322,3 +322,9 @@ We sincerely welcome you to contribute to this repository!
 ## 📌 Citation
 If you find this repository useful in your research, please consider citing our paper:
 ```bibtex
+@article{li2025survey,
+  title={A Survey of Personalization: From RAG to Agent},
+  author={Li, Xiaopeng and Jia, Pengyue and Xu, Derong and Wen, Yi and Zhang, Yingyi and Zhang, Wenlin and Wang, Wanyu and Wang, Yichao and Du, Zhaocheng and Li, Xiangyang and others},
+  journal={arXiv preprint arXiv:2504.10147},
+  year={2025}
+}
