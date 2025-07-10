@@ -288,7 +288,8 @@ Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agen
 |       Generation       | Reddit                            | ROUGE, Persona-F1                                                 | [Link](https://aclanthology.org/2022.naacl-main.426.pdf)                          |
 |       Generation       | MedicalDialogue                   | ROUGE, Persona-F1                                                 | [Link](https://arxiv.org/pdf/2309.11696)                                          |
 |       Generation       | Personalized-gen                  | Mean Success Rate, Median Relative Improvements, Fluency          | [Link](https://github.com/balhafni/personalized-gen)                              |
-｜    Genration | PersonaBench | Persona Satisfaction, Profile Similarity, Utterance Efficienc | [link](https://github.com/tml1026/Lifelong-Personalized-Agent)| 
+|    Genration | PersonaBench | Recall, F1, NDCG | [Link](https://arxiv.org/pdf/2502.20616)| 
+|   Generation | PERSONAMEM   | Discriminative & Generative Settings | [Link](https://arxiv.org/abs/2504.14225) |
 ## 🔗 Related Surveys and Repositories
 
 ### 📚 Surveys
