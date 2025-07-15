@@ -298,6 +298,7 @@ Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agen
 - [When Large Language Models Meet Personalization: Perspectives of Challenges and Opportunities](https://arxiv.org/pdf/2307.16376)
 - [Personalization of Large Language Models: A Survey](https://arxiv.org/pdf/2411.00027)
 - [A Survey of Personalized Large Language Models: Progress and Future Directions](https://arxiv.org/pdf/2502.11528#page=10.52)
+- [Personalized Generation In Large Model Era: A Survey](https://arxiv.org/abs/2503.02614)
 
 #### 🎭 Personalized Role-Playing
 - [From Persona to Personalization: A Survey on Role-Playing Language Agents](https://arxiv.org/pdf/2404.18231)
