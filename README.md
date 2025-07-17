@@ -250,6 +250,7 @@ Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agen
 |                     | Enhancing role-playing language models with personality-indicative data                           | Personality-focused character simulation                           | EMNLP 2024 Findings     | [Link](https://arxiv.org/pdf/2406.18921)                     | [Link](https://github.com/alienet1109/RolePersonality)      |
 | InCharacter         | Evaluating personality fidelity in role-playing agents through psychological interviews           | Psychological evaluation of role-play agents                       | ACL 2024                | [Link](https://aclanthology.org/2024.acl-long.102/)          | [Link](https://incharacter.github.io/)                      |
 | Socialbench         | Socialbench: Sociality evaluation of role-playing conversational agents                           | Benchmarking social interaction ability in role-playing            | ACL Findings 2024       | [Link](https://arxiv.org/pdf/2403.13679)                     | [Link](https://github.com/X-PLUG/SocialBench)               |
+| PersonaAgent        | When Large Language Model Agents Meet Personalization at Test Time                                | Personalized LLM agent framework                                   | arXiv 2025              | [Link](https://arxiv.org/pdf/2506.06254)                     | 
 
 
 ## 📚 Datasets and Evaluation
