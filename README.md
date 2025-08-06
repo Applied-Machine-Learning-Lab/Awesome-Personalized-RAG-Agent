@@ -292,6 +292,7 @@ Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agen
 |    Genration | PersonaBench | Recall, F1, NDCG | [Link](https://arxiv.org/pdf/2502.20616)| 
 |   Generation | PERSONAMEM   | Discriminative & Generative Settings | [Link](https://arxiv.org/abs/2504.14225) |
 |   Generation | REALTALK     | Lexical Sim., Semantic Sim., EI, Partial-Exact-Match F1, LLM Accuracy | [Link](https://arxiv.org/pdf/2502.13270) |
+|    Generation  |  UserBench  |  Best Exist Rate, Correct Exist Rate, Score, Search Attempt Valid, Action Attempt Valid, Preference Elicited | [Link](https://arxiv.org/pdf/2507.22034)  |
 
 ## 🔗 Related Surveys and Repositories
 
