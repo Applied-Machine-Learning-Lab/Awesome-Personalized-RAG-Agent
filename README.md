@@ -319,6 +319,9 @@ Beyond traditional RAG pipelines, we extend the scope to **Personalized LLM Agen
 - [Awesome Personalized LLM](https://github.com/HqWu-HITCS/Awesome-Personalized-LLM)  
   A collection of papers and tools focused on personalized LLM development.
 
+- [WFGY Problem Map](https://github.com/onestardao/WFGY/blob/main/ProblemMap/README.md)  
+  A structured 16-problem taxonomy for diagnosing common failure modes in RAG systems, including hallucination, retrieval drift, chunk mismatch, and pipeline configuration issues.
+
 
 
 ## 🚀 Contributing
